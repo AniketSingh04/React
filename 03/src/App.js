@@ -5,7 +5,7 @@ export default function App() {
     console.log(count);
     console.log(setcount);
     const handleclickInc = ()=>{
-        setcount(count+1);
+        setcount(count+1) ;
     }
     const handleclickDec = ()=>{
         setcount(count-1);
