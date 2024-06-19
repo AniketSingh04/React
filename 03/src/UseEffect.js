@@ -2,13 +2,18 @@ import React, { useEffect, useState } from 'react'
 
 const UseEffect = () => {
 
-    // This effect runs once after the initial render
-    useEffect(()=>{
-        alert("We are using useEffect")
-    },)// This effect runs once after the initial render
-
+//State Initialization
 const [clicked, setClicked] = useState()
 const [count, setCount] = useState(0);
+
+    // This effect runs once after the initial render
+    useEffect(()=>{
+        console.log(`We are using useEffect`);
+        return (()=>{
+            console.log(`return of useEffect`);
+        }
+        )
+    },[clicked, count]);
 
   return (
     <div>
