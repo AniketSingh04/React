@@ -4,7 +4,7 @@ const MultipleReturn = () => {
 
     const [users, setUsers] = useState([]); //state initialization for users
     const [isLoading, setIsLoading] = useState(true); //state initialization for checking data loading
-    const [error, setError] = useState(null); //state initialization for errors
+    const  [error, setError] = useState(null); //state initialization for errors
 
     useEffect(()=>{
         async function fetchUsers(){

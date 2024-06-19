@@ -11,7 +11,7 @@ const FetchData = () => {
         catch(error => console.error('Error fetching data:', error));
     }, []);
 
-  return (
+  return(
     <div>
         <h1>User List</h1>
         <ul>
