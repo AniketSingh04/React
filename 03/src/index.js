@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import UseReducer from './UseReducer';
+import UseReducer2 from './UseReducer2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseReducer/>
+    <UseReducer2/>
   </React.StrictMode>
 );
 
