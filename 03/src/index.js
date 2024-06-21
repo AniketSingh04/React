@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import A from './Context_API/A';
+import UseReducer from './UseReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <A/>
+    <UseReducer/>
   </React.StrictMode>
 );
 
